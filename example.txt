@@ -1,0 +1,141 @@
+(base) mariosanchez@Marios-MacBook-Pro-2 Airline-Tracker % make main 
+gcc -c main.c 
+gcc -c records.c 
+gcc main.o records.o -o main
+(base) mariosanchez@Marios-MacBook-Pro-2 Airline-Tracker % make run   
+./main data.csv
+Opening data.csv
+Unique routes operated by airline: 2763
+
+
+######### Airline Route Records Database MENU #########
+1. Search by Route
+2. Search by Origin Airport
+3. Search by Destination Airport
+4. Search by Airline
+5. Quit
+Enter your selection: 4
+Enter airline: LAX
+Search by airline...
+
+0 matches were found.
+
+Statistics:
+Total passengers:       0
+Total passengers in Month 1:     0
+Total passengers in Month 2:     0
+Total passengers in Month 3:     0
+Total passengers in Month 4:     0
+Total passengers in Month 5:     0
+Total passengers in Month 6:     0
+
+Average Passengers per Month: 0
+
+######### Airline Route Records Database MENU #########
+1. Search by Route
+2. Search by Origin Airport
+3. Search by Destination Airport
+4. Search by Airline
+5. Quit
+Enter your selection: 2
+Enter origin: LAX
+Search by origin...
+UA(LAX-NRT) DL(LAX-LIM) NZ(LAX-WLG) WS(LAX-YVR) JL(LAX-KIX) PR(LAX-BGI) QF(LAX-MEL) DL(LAX-PVR) WS(LAX-YYC) DL(LAX-SJD) VA(LAX-BNE) LY(LAX-TLV) UA(LAX-SAL) UA(LAX-GUA) AS(LAX-MZT) AS(LAX-ZIH) AS(LAX-LTO) AS(LAX-ZLO) SQ(LAX-SIN) JL(LAX-HND) PR(LAX-CEB) SV(LAX-JED) CI(LAX-TPE) TK(LAX-IST) BR(LAX-TPE) MF(LAX-XMN) AA(LAX-PVR) AA(LAX-MEX) LH(LAX-MUC) AM(LAX-GDL) CA(LAX-PEK) PR(LAX-MNL) CX(LAX-HKG) AC(LAX-YVR) AM(LAX-MEX) AA(LAX-SJD) NH(LAX-NRT) CZ(LAX-CAN) NZ(LAX-AKL) BA(LAX-LHR) AS(LAX-SJD) AF(LAX-CDG) AS(LAX-PVR) AS(LAX-GDL) OZ(LAX-ICN) VB(LAX-GDL) KE(LAX-ICN) KL(LAX-AMS) Y4(LAX-GDL) UX(LAX-DPS) AA(LAX-NRT) QF(LAX-BNE) MU(LAX-PVG) SU(LAX-SVO) CZ(LAX-WUH) LP(LAX-SCL) EB(LAX-MNL) DL(LAX-MEX) LP(LAX-LIM) EB(LAX-LHR) E9(LAX-LHR) EB(LAX-DPS) CP(LAX-MZT) UA(LAX-SJD) Y4(LAX-MEX) CP(LAX-PVR) NH(LAX-HND) FJ(LAX-NAN) MF(LAX-TSN) LA(LAX-SCL) TK(LAX-ESB) AC(LAX-YYZ) VS(LAX-LHR) AC(LAX-YOW) Q6(LAX-SJO) VB(LAX-MEX) SV(LAX-RUH) EB(LAX-XCR) EB(LAX-CDG) LR(LAX-GUA) EB(LAX-FRA) AS(LAX-CUN) DL(LAX-LIR) Y4(LAX-DGO) Y4(LAX-UPN) WN(LAX-SJD) JJ(LAX-GRU) AA(LAX-BZE) LA(LAX-GRU) NZ(LAX-RAR) UA(LAX-PVR) AZ(LAX-FCO) Q6(LAX-GUA) Y4(LAX-AGU) Q6(LAX-SAL) DY(LAX-MAD) Y4(LAX-OAX) AS(LAX-SJO) LO(LAX-WAW) 5D(LAX-MTY) TA(LAX-GUA) OO(LAX-YVR) MF(LAX-TAO) AY(LAX-HEL) LX(LAX-ZRH) AA(LAX-EZE) Y4(LAX-ZCL) TN(LAX-CDG) Y4(LAX-MLM) AC(LAX-YYC) IB(LAX-MAD) Y4(LAX-BJX) SK(LAX-CPH) WS(LAX-YEG) AA(LAX-GRU) AF(LAX-PPT) EY(LAX-AUH) DL(LAX-CDG) DY(LAX-BCN) CZ(LAX-SHE) WS(LAX-YYZ) EI(LAX-DUB) AA(LAX-HND) UA(LAX-MEL) CP(LAX-YVR) UA(LAX-SYD) SQ(LAX-NRT) DL(LAX-GUA) JL(LAX-NRT) DL(LAX-CUN) AA(LAX-SYD) DL(LAX-SJO) DY(LAX-CDG) VA(LAX-MEL) AS(LAX-LIR) AV(LAX-BOG) UA(LAX-LHR) AC(LAX-YUL) DL(LAX-HND) DL(LAX-SYD) UA(LAX-CUN) DI(LAX-LGW) TN(LAX-PPT) QR(LAX-DOH) LH(LAX-FRA) NZ(LAX-LHR) AA(LAX-AKL) VA(LAX-SYD) EK(LAX-DXB) AA(LAX-LHR) CM(LAX-PTY) TA(LAX-SAL) QF(LAX-SYD) DL(LAX-YWG) DL(LAX-YOW) AC(LAX-YEG) AN(LAX-SJD) VB(LAX-TIJ) DI(LAX-OSL) MU(LAX-NKG) LR(LAX-SAL) CA(LAX-SZX) HU(LAX-CKG) HX(LAX-HKG) DL(LAX-PVG) 3U(LAX-HGH) UA(LAX-PVG) 3U(LAX-TNA) LF(LAX-SXM) DL(LAX-MZT) VS(LAX-LGW) UA(LAX-KEF) AA(LAX-CBR) VB(LAX-MTY) CX(LAX-NRT) PR(LAX-HND) UA(LAX-CBR) WN(LAX-CUN) CX(LAX-ICN) WN(LAX-PVR) AA(LAX-YVR) 4O(LAX-CUN) 5D(LAX-BJX) 4O(LAX-MTY) HU(LAX-CSX) HU(LAX-CTU) SK(LAX-ARN) 4O(LAX-GDL) AA(LAX-PEK) AA(LAX-PVG) AA(LAX-HKG) 4O(LAX-MEX) 
+192 matches were found.
+(base) mariosanchez@Marios-MacBook-Pro-2 Airline-Tracker % make run 
+./main data.csv
+Opening data.csv
+Unique routes operated by airline: 2763
+
+
+######### Airline Route Records Database MENU #########
+1. Search by Route
+2. Search by Origin Airport
+3. Search by Destination Airport
+4. Search by Airline
+5. Quit
+Enter your selection: 2 
+Enter origin: SFO
+Search by origin...
+CX(SFO-HKG) PR(SFO-CEB) CI(SFO-TPE) AS(SFO-PVR) AC(SFO-YYZ) LH(SFO-MUC) BA(SFO-LHR) NH(SFO-NRT) BR(SFO-TPE) PR(SFO-MNL) AC(SFO-YVR) OZ(SFO-ICN) KE(SFO-ICN) UA(SFO-FRA) UA(SFO-SYD) UA(SFO-NRT) AI(SFO-DEL) LF(SFO-FAB) UA(SFO-DEL) CZ(SFO-CAN) CZ(SFO-KMG) CZ(SFO-CGO) CZ(SFO-SJW) AI(SFO-BOM) CZ(SFO-SHE) CZ(SFO-TAO) UA(SFO-SJD) AS(SFO-SJD) UA(SFO-CUN) UA(SFO-PVR) MU(SFO-PVG) CA(SFO-NKG) UA(SFO-MEL) UA(SFO-ICN) QK(SFO-YVR) JL(SFO-HND) AM(SFO-GDL) BA(SFO-LGW) EB(SFO-BEG) OO(SFO-YVR) EB(SFO-CRK) FJ(SFO-NAN) QK(SFO-YEG) LY(SFO-TLV) IB(SFO-BCN) DY(SFO-BCN) QK(SFO-YYC) CA(SFO-PEK) DY(SFO-CDG) BF(SFO-PPT) UA(SFO-KIX) BF(SFO-ORY) TP(SFO-LIS) QF(SFO-BNE) QF(SFO-MEL) UA(SFO-CDG) OO(SFO-YYC) UA(SFO-YYZ) UA(SFO-PPT) SK(SFO-CPH) UA(SFO-HND) LX(SFO-ZRH) UA(SFO-TPE) DI(SFO-LGW) AC(SFO-YUL) LH(SFO-FRA) UA(SFO-MUC) TA(SFO-SAL) QF(SFO-SYD) EI(SFO-DUB) UA(SFO-MEX) UA(SFO-TLV) AF(SFO-CDG) AM(SFO-MEX) CM(SFO-PTY) UA(SFO-SIN) VS(SFO-LHR) KL(SFO-AMS) SQ(SFO-SIN) UA(SFO-LHR) UA(SFO-AKL) TK(SFO-IST) NZ(SFO-AKL) EK(SFO-DXB) UA(SFO-YVR) AN(SFO-YYC) UA(SFO-BOM) CZ(SFO-WUH) MU(SFO-TAO) UA(SFO-CTU) UA(SFO-BCN) UA(SFO-PEK) UA(SFO-PVG) UA(SFO-HKG) SQ(SFO-HKG) CX(SFO-NRT) FI(SFO-KEF) CX(SFO-KIX) 4O(SFO-GDL) 
+99 matches were found.
+
+Statistics:
+Total passengers:       2560583
+Total passengers in Month 1:     1183469
+Total passengers in Month 2:     840282
+Total passengers in Month 3:     433704
+Total passengers in Month 4:     44483
+Total passengers in Month 5:     17104
+Total passengers in Month 6:     41541
+
+Average Passengers per Month: 426763
+
+######### Airline Route Records Database MENU #########
+1. Search by Route
+2. Search by Origin Airport
+3. Search by Destination Airport
+4. Search by Airline
+5. Quit
+Enter your selection: 3
+Enter destination: KIX
+Searching by destination...
+JL(LAX-KIX) UA(SFO-KIX) UA(GUM-KIX) DL(HNL-KIX) JL(HNL-KIX) HA(HNL-KIX) D7(HNL-KIX) CX(ORD-KIX) CX(SFO-KIX) 
+9 matches were found.
+
+Statistics:
+Total passengers:       197847
+Total passengers in Month 1:     87720
+Total passengers in Month 2:     77050
+Total passengers in Month 3:     32397
+Total passengers in Month 4:     497
+Total passengers in Month 5:     0
+Total passengers in Month 6:     183
+
+Average Passengers per Month: 32974
+
+######### Airline Route Records Database MENU #########
+1. Search by Route
+2. Search by Origin Airport
+3. Search by Destination Airport
+4. Search by Airline
+5. Quit
+Enter your selection: 4
+Enter airline: LO
+Search by airline...
+LO(ORD-WAW) LO(JFK-WAW) LO(IAD-WAW) LO(JFK-KIV) LO(JFK-BUD) LO(EWR-WAW) LO(LAX-WAW) LO(MIA-WAW) LO(ORD-KRK) 
+9 matches were found.
+
+Statistics:
+Total passengers:       111330
+Total passengers in Month 1:     48891
+Total passengers in Month 2:     36994
+Total passengers in Month 3:     20439
+Total passengers in Month 4:     787
+Total passengers in Month 5:     2450
+Total passengers in Month 6:     1769
+
+Average Passengers per Month: 18555
+
+######### Airline Route Records Database MENU #########
+1. Search by Route
+2. Search by Origin Airport
+3. Search by Destination Airport
+4. Search by Airline
+5. Quit
+Enter your selection: 10
+Invalid choice.
+
+
+######### Airline Route Records Database MENU #########
+1. Search by Route
+2. Search by Origin Airport
+3. Search by Destination Airport
+4. Search by Airline
+5. Quit
+Enter your selection: 5
+Good-bye!
+(base) mariosanchez@Marios-MacBook-Pro-2 Airline-Tracker % make clean
+rm main
+rm main.o
+rm records.o
