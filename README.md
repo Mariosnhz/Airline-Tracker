@@ -20,3 +20,8 @@ Let's Begin!
 Embark on a journey of data exploration and uncover intriguing patterns within the aviation industry, all from the command line with the speed and efficiency of C. Whether you're a researcher, an aviation enthusiast, or someone with a curious mind, Airline-Tracker in C is the perfect companion for your data analysis adventures.
 
 Happy exploring! :airplane: :world_map:
+
+
+# Get Started
+To help you get started quickly, we have provided an example.txt file in this repository. This file contains sample input data that you can use to run the Airline-Tracker program. You can use this data to explore the functionalities and see how the program handles different queries.
+
